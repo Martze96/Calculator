@@ -11,7 +11,8 @@ const deleteButton = document.getElementById('deleteButton');
 
 numberButtons.forEach(numberButton => {
     numberButton.addEventListener("click", () => {
-        input = Number(mainResult.textContent) === 0 ? input = numberButton.textContent : input += numberButton.textContent;
+        input = Number(mainResult.textContent) === 0 ? 
+        input = numberButton.textContent : input += numberButton.textContent;
         mainResult.textContent = input;
         console.log(input);
     })
