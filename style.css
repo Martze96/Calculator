@@ -78,7 +78,7 @@
     grid-column: span 2;
 }
 
-#result{
+#resultButton{
     background-color: rgb(236, 170, 28);
     border: 2px solid rgb(170, 105, 20);
 }
