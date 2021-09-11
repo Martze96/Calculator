@@ -131,7 +131,11 @@ html {
 
 footer {
     position:absolute;
-    bottom: 20px;
+    bottom: 30px;
+    left: 20px;
+}
+footer a {
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.356);
     font-family: sans-serif;
     font-weight: 600;
