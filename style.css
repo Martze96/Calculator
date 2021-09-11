@@ -1,3 +1,12 @@
+html { 
+    background: url('background\ from\ andrej-lisakov-unsplash.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
 
 #calculator {
     background-color: darkgray;
@@ -10,6 +19,7 @@
     height: 600px;
     border-radius: 10px;
     border: 3px solid rgb(85, 85, 85);
+    box-shadow: 0px 0px 20px grey;
   }
 
 #screen {
@@ -81,4 +91,40 @@
 #resultButton{
     background-color: rgb(236, 170, 28);
     border: 2px solid rgb(170, 105, 20);
+}
+
+#commaButton {
+    opacity: 0.1;
+}
+
+#infobox {
+    position:absolute;
+    left: 70%;
+    bottom: 0;
+    background-color: rgb(153, 197, 233);
+    width: 420px;
+    height: 200px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    opacity: 0.9;
+
+}
+
+#infobox div {
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+#infobox li {
+    margin-top: 15px;
+    opacity: 1;
+}
+
+#infoBoxHeader {
+    color: white;
+    background-color: rgb(20, 94, 155);
 }
